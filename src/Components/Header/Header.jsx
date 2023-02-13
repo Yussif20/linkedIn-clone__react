@@ -1,6 +1,7 @@
 import "./Header.css";
 import Logo from "../../Assets/Images/linkedin.png";
 import SearchIcon from "@mui/icons-material/Search";
+import HeaderOptions from "../HeaderOptions/HeaderOptions";
 function Header() {
   return (
     <div className="header">
@@ -12,7 +13,9 @@ function Header() {
         </div>
       </div>
 
-      <div className="header__right"></div>
+      <div className="header__right">
+        <HeaderOptions />
+      </div>
     </div>
   );
 }
