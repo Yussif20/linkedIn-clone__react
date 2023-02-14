@@ -5,6 +5,7 @@ import SupervisorAccountIcon from "@mui/icons-material/SupervisorAccount";
 import BusinessCenterIcon from "@mui/icons-material/BusinessCenter";
 import ChatIcon from "@mui/icons-material/Chat";
 import NotificationsIcon from "@mui/icons-material/Notifications";
+import AvatarImage from "../../Assets/Images/avatar.jpg";
 
 function HeaderOptions() {
   return (
@@ -14,7 +15,7 @@ function HeaderOptions() {
       <HeaderOptionItem Icon={BusinessCenterIcon} title="Jobs" />
       <HeaderOptionItem Icon={ChatIcon} title="Messaging" />
       <HeaderOptionItem Icon={NotificationsIcon} title="Notifications" />
-      <HeaderOptionItem avatar="../../Assets/Images/linkedin.png" title="Me" />
+      <HeaderOptionItem avatar={AvatarImage} title="Me" />
     </div>
   );
 }
