@@ -5,6 +5,7 @@ import ImageIcon from "@mui/icons-material/Image";
 import SubscriptionsIcon from "@mui/icons-material/Subscriptions";
 import EventNoteIcon from "@mui/icons-material/EventNote";
 import ArticleIcon from "@mui/icons-material/Article";
+import Post from "../Post/Post";
 function Feed() {
   return (
     <div className="feed">
@@ -12,7 +13,7 @@ function Feed() {
         <div className="feed__input">
           <CreateIcon />
           <form>
-            <input type="text" />
+            <input type="text" placeholder="Start a post" />
             <button type="submit">Send</button>
           </form>
         </div>
@@ -27,6 +28,7 @@ function Feed() {
           />
         </div>
       </div>
+      <Post />
     </div>
   );
 }
