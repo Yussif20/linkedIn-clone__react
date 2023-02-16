@@ -7,13 +7,7 @@
   cursor: pointer;
   transition: 0.3s;
 }
-.headerOption__title {
-  font-weight: 400;
-  font-size: 12px;
-}
-.headerOption:hover {
-  color: black;
-}
+
 .headerOption__icon {
   object-fit: contain;
   height: 25px !important;

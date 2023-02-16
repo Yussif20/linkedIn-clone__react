@@ -19,12 +19,13 @@
   display: flex;
 }
 .header__search {
+  margin-top: 2px;
   padding: 10px;
   display: flex;
   align-items: center;
   border-radius: 5px;
   color: grey;
-  height: 22px;
+  height: 80%;
   background-color: #eef3f8;
 }
 .header__search input {
