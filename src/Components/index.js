@@ -3,3 +3,4 @@ export { default as HeaderOptions } from "./HeaderOptions/HeaderOptions.jsx";
 export { default as Sidebar } from "./Sidebar/Sidebar.jsx";
 export { default as Feed } from "./Feed/Feed.jsx";
 export { default as Widgets } from "./Widgets/Widgets.jsx";
+export { default as InputOption } from "./InputOption/InputOption.jsx";
